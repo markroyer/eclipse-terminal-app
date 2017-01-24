@@ -52,11 +52,6 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/neon</url>
 		</repository>
-		<!-- <repository>
-			<id>royer</id>
-			<layout>p2</layout>
-			<url>https://rawgit.com/markroyer/p2-repositories/master</url>
-		</repository> -->
 	</repositories>
 	<modules>
 		<module>../eclipse-terminal-app</module>
