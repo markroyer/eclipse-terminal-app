@@ -1,12 +1,13 @@
 # eclipse-terminal-app
 
 This project is an example Eclipse, feature-based, terminal
-application that includes plugin tests.
+application that includes plugin tests.  This is a seed project for
+creating terminal-based OSGI applications.
 
 ## Building
 
-The project can be built most using maven from the
-`eclipse-terminal-app.parent` directory. Typing
+To build the project, use maven from the `eclipse-terminal-app.parent`
+directory. Typing
 
 ```bash
 mvn clean verify
@@ -68,9 +69,10 @@ below.
 
 ### eclipse-terminal-app.parent
 
-
-
-| Aggregate  | The parent directory for building the entire project. |
+This folder is an aggregating folder for ensuring that all of the
+other project folders are built.  Using Maven (`mvn clean verify`)
+from this directory results in the entire project being built, tested,
+and zipped.
 
 ### eclipse-terminal-app
 
