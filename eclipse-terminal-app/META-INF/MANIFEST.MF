@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: eclipse-terminal-app
+Bundle-SymbolicName: eclipse-terminal-app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umaine.cs.eta.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.equinox.app
+Bundle-ClassPath: target/classes/,
+ .
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework;version="1.8.0"

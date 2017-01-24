@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="edu.umaine.cs.eta.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="edu.umaine.cs.eta.Application"
+            name="name">
+      </product>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="eclipse-terminal-app.application"
+            name="eclipse-terminal-app">
+         <property
+               name="appName"
+               value="eclipse-terminal-app">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

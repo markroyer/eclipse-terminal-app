@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/eclipse.terminal.app.feature_1.0.0.qualifier.jar" id="eclipse-terminal-app.feature" version="1.0.0.qualifier">
+      <category name="eclipse-terminal-app"/>
+   </feature>
+   <category-def name="eclipse-terminal-app" label="Eclipse Terminal App Category">
+      <description>
+         Eclipse Terminal App Category Description
+      </description>
+   </category-def>
+</site>

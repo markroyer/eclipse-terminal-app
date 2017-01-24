@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Terminal App Tests
+Bundle-SymbolicName: eclipse-terminal-app.tests
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: eclipse-terminal-app;bundle-version="1.0.0"
+Require-Bundle: org.junit
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
