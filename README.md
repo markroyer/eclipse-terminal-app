@@ -76,7 +76,21 @@ and zipped.
 
 ### eclipse-terminal-app
 
-| Plugin  | This folder contains the Eclipse plugin.  |
+This folder contains the application code.  Since the application is a
+plugin, you may also think of this folder as containing the main
+plugin for the application.
+
+The `src` folder contains 3 classes that may be of use for application
+developers.
+
+The **Activator** class contains methods that are called at the start
+end stop of the application plugin.
+
+The **Application** class is the actual start of the application.
+This class also contains an example for parsing the program arguments.
+
+The **Fibonacci** class is merely an example class to indicate that
+additional Java classes might reside in the same package scope.
 
 ### eclipse-terminal-app.feature
 
@@ -96,5 +110,5 @@ and zipped.
 
 The project requires Apache Maven 3.3.9 and Java 1.8 to build.
 
-<!--  LocalWords:  OSGI RCP JUnit mvn cd
+<!--  LocalWords:  OSGI RCP JUnit mvn cd src
  -->
