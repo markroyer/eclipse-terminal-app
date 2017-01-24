@@ -1,18 +1,6 @@
-# icd2
+# eclipse-terminal-app
 
-ICD2 is a Java-based tool for dating ice cores.
-
-## Releases
-
-This section will hold release information.
-
-## Examples
-
-The program loads CSV files that contain depth information.  The first
-row of the CSV file must be a list of headers.  The rest of the file
-should contain the data.  An example file can be found
-[here](https://raw.githubusercontent.com/wiki/markroyer/icd2/991test1.csv).
-
+This project is an example Eclipse, feature-based, terminal application that includes plugin tests.
 
 ## Implementation Details
 
