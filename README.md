@@ -103,8 +103,11 @@ support is not very good.
 
 ### eclipse-terminal-app.repository
 
-| Build Target | This folder contains the product definition. This is
-  where the built product is placed.  |
+The repository folder contains the result of a successful project
+build.  Normally, this would be the place where the eclipse plugins
+are located, but because this is an application, this folder contains
+the executable program.  The zipped versions for Linux, Mac, and
+Windows can be found in the `target/products` subfolder.
 
 ### eclipse-terminal-app.tests
 
