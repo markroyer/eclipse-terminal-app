@@ -111,7 +111,11 @@ Windows can be found in the `target/products` subfolder.
 
 ### eclipse-terminal-app.tests
 
-| Tests  | This folder contains any JUnit tests for the plugin, which are not deployed with the built application.  |
+This folder contains any JUnit tests for the plugin.  These could be
+placed in the same folder as the plugin (`eclipse-terminal-app`) for
+simplicity, but they would be included in the final build.  By placing
+them in this folder, they can be run as headless Eclipse JUnit plugin
+tests, and they will not be deployed with the application.
 
 
 ## Requirements
