@@ -94,7 +94,12 @@ additional Java classes might reside in the same package scope.
 
 ### eclipse-terminal-app.feature
 
-| Feature  | A feature description of the project that can allow for an aggregate of plugins.  |
+This folder contains the packaging details to allow the eclipse
+application to create a feature.  This not really needed for this
+project, but it is a good example of how to aggregate plugins.  This
+feature example can be used as one component to package a JRE with the
+final application, which can be useful for Mac where native JRE
+support is not very good.
 
 ### eclipse-terminal-app.repository
 
@@ -110,5 +115,5 @@ additional Java classes might reside in the same package scope.
 
 The project requires Apache Maven 3.3.9 and Java 1.8 to build.
 
-<!--  LocalWords:  OSGI RCP JUnit mvn cd src
+<!--  LocalWords:  OSGI RCP JUnit mvn cd src JRE
  -->
